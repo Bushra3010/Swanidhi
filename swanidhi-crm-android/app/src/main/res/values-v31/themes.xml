@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SwanidhiCRM" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/navy_top</item>
+        <item name="colorAccent">@color/gold</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/navy_bottom</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:windowSplashScreenBackground">@color/navy_top</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon_framed</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/surface</item>
+    </style>
+</resources>

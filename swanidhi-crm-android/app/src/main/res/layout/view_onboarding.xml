@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ob_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="18dp"
+        android:text="@string/skip"
+        android:textColor="@color/ink_soft"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ob_page"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="24dp">
+
+        <TextView
+            android:id="@+id/ob_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_extrabold"
+            android:lineSpacingMultiplier="1.1"
+            android:textColor="@color/ink"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ob_body"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingMultiplier="1.25"
+            android:textColor="@color/ink_soft"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:id="@+id/ob_art"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_blue_tint">
+
+                <ImageView
+                    android:id="@+id/ob_icon"
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center"
+                    android:importantForAccessibility="no" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ob_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/ob_next"
+        style="@style/PrimaryButton"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ob_next_label"
+            style="@style/ButtonLabel"
+            android:text="@string/next" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="8dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_arrow_right_white" />
+    </LinearLayout>
+</LinearLayout>

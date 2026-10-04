@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Zavtoo app palette: study-app blue as the primary colour, brand gold for highlights,
+     deep navy for the splash. Matches the Swanidhi logo's navy + gold. -->
+<resources>
+    <color name="navy_top">#04246B</color>
+    <color name="navy_bottom">#020B24</color>
+    <color name="blue">#0B5CFF</color>
+    <color name="blue_dark">#0847C7</color>
+    <color name="blue_tint">#E8EFFE</color>
+    <color name="gold">#F5A623</color>
+    <color name="gold_dark">#DD8F0D</color>
+    <color name="gold_tint">#FFF6E4</color>
+    <color name="app_bg">#EEF1FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="ink">#0F1729</color>
+    <color name="ink_soft">#5B6478</color>
+    <color name="ink_mute">#98A1B5</color>
+    <color name="line">#E6EAF5</color>
+    <color name="white_75">#BFFFFFFF</color>
+    <color name="white_55">#8CFFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

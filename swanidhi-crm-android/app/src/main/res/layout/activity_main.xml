@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface">
+
+    <!-- CRM content: padded below the status bar / above the nav bar by MainActivity. -->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/surface">
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:max="100"
+            android:progressDrawable="@drawable/progress_blue"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/offline"
+            layout="@layout/view_offline"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/onboarding"
+        layout="@layout/view_onboarding"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/splash"
+        layout="@layout/view_splash"
+        tools:visibility="visible" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+# Source repos this app was built from — they live in their own GitHub repos
+SwanidhiGroupOfInstitutions/
+zevto/
+
+# Release signing secrets — keep backed up privately, never commit
+*.jks
+*.keystore
+keystore.properties
+
+# Build output / local machine config
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Swanidhi CRM</string>
+    <string name="splash_title">Swanidhi CRM</string>
+    <string name="splash_subtitle">Swanidhi Group of Institutions</string>
+    <string name="splash_motto">ज्ञानं परमं बलम्</string>
+    <string name="get_started">Get Started</string>
+    <string name="loading">Loading your workspace…</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="lets_go">Let\'s go</string>
+    <string name="ob1_title">Every Lead</string>
+    <string name="ob1_accent">in one place</string>
+    <string name="ob1_body">Capture, assign and follow up on admission enquiries — calls and WhatsApp in a tap.</string>
+    <string name="ob2_title">Students &amp; Fees</string>
+    <string name="ob2_accent">always up to date</string>
+    <string name="ob2_body">Admissions, documents, fee collection and invoices for every course and session.</string>
+    <string name="ob3_title">Your Team</string>
+    <string name="ob3_accent">on the move</string>
+    <string name="ob3_body">Attendance punch-in, payroll, targets and associate partners — right from your phone.</string>
+    <string name="offline_title">You\'re offline</string>
+    <string name="offline_body">Check your internet connection and try again. Your session stays signed in.</string>
+    <string name="error_title">Couldn\'t reach the CRM</string>
+    <string name="error_body">The server didn\'t respond. Please try again in a moment.</string>
+    <string name="retry">Try again</string>
+    <string name="press_back_again">Press back again to exit</string>
+    <string name="saved_to_downloads">Saved to Downloads: %1$s</string>
+    <string name="download_failed">Couldn\'t save the file</string>
+    <string name="downloading">Downloading %1$s…</string>
+    <string name="no_app_found">No app found to open this</string>
+    <string name="close">Close</string>
+    <string name="choose_file">Choose file</string>
+    <string name="location_denied">Location permission is needed to punch attendance</string>
+</resources>
